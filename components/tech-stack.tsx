@@ -4,7 +4,7 @@ import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
-import { Code2, Layout, Server, Database, Wrench, Binary } from "lucide-react"
+import { Code2, Layout, Server, Database, Wrench, Users } from "lucide-react"
 
 export default function TechStack() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
@@ -13,19 +13,17 @@ export default function TechStack() {
     languages: {
       icon: <Code2 className="h-6 w-6" />,
       title: "Programming Languages",
-      description: "Core languages for systems and application development",
+      description: "Core languages for web development and beyond",
       skills: [
-        { name: "C++", level: 90 },
-        { name: "C", level: 85 },
-        { name: "Java", level: 88 },
-        { name: "Ruby", level: 82 },
-        { name: "Python", level: 85 },
-        { name: "TypeScript", level: 90 },
-        { name: "JavaScript", level: 90 },
+        { name: "JavaScript", level: 75 },
+        { name: "HTML/CSS", level: 85 },
+        { name: "Ruby", level: 60 },
+        { name: "SQL", level: 70 },
+        { name: "TypeScript", level: 50 },
       ],
     },
     concepts: {
-      icon: <Binary className="h-6 w-6" />,
+      icon: <Code2 className="h-6 w-6" />,
       title: "Engineering Concepts",
       description: "Fundamental software engineering principles",
       skills: [
@@ -42,12 +40,12 @@ export default function TechStack() {
       title: "Frontend Development",
       description: "Modern web development technologies",
       skills: [
-        { name: "React", level: 90 },
-        { name: "Next.js", level: 85 },
-        { name: "HTML/CSS", level: 95 },
-        { name: "Tailwind CSS", level: 95 },
-        { name: "Redux", level: 85 },
-        { name: "WebGL", level: 75 },
+        { name: "React", level: 70 },
+        { name: "HTML/CSS", level: 85 },
+        { name: "Tailwind CSS", level: 75 },
+        { name: "Responsive Design", level: 80 },
+        { name: "JavaScript DOM", level: 75 },
+        { name: "Git/GitHub", level: 80 },
       ],
     },
     backend: {
@@ -55,21 +53,21 @@ export default function TechStack() {
       title: "Backend Development",
       description: "Server-side frameworks and technologies",
       skills: [
-        { name: "Node.js", level: 85 },
-        { name: "Express", level: 80 },
-        { name: "Spring Boot", level: 85 },
-        { name: "Ruby on Rails", level: 80 },
+        { name: "Ruby on Rails", level: 65 },
+        { name: "Node.js", level: 55 },
+        { name: "RESTful APIs", level: 70 },
+        { name: "Authentication", level: 60 },
       ],
     },
     database: {
       icon: <Database className="h-6 w-6" />,
-      title: "Database Systems",
-      description: "Database management and optimization",
+      title: "Database & Storage",
+      description: "Database management and data handling",
       skills: [
-        { name: "MongoDB", level: 85 },
-        { name: "PostgreSQL", level: 80 },
-        { name: "MySQL", level: 75 },
-        { name: "Redis", level: 70 },
+        { name: "PostgreSQL", level: 65 },
+        { name: "SQLite", level: 70 },
+        { name: "Database Design", level: 60 },
+        { name: "Active Record", level: 55 },
       ],
     },
     tools: {
@@ -77,12 +75,24 @@ export default function TechStack() {
       title: "Development Tools",
       description: "Tools and environments for development",
       skills: [
-        { name: "Git", level: 90 },
-        { name: "Docker", level: 80 },
-        { name: "AWS", level: 75 },
-        { name: "Linux/Unix", level: 85 },
-        { name: "CMake", level: 80 },
-        { name: "Visual Studio", level: 85 },
+        { name: "Git/GitHub", level: 80 },
+        { name: "VS Code", level: 85 },
+        { name: "Command Line", level: 75 },
+        { name: "Webpack", level: 50 },
+        { name: "Testing (Jest/RSpec)", level: 45 },
+      ],
+    },
+    hospitality: {
+      icon: <Users className="h-6 w-6" />,
+      title: "Hospitality & Marketing",
+      description: "Professional experience in luxury hospitality",
+      skills: [
+        { name: "Customer Experience", level: 95 },
+        { name: "Brand Storytelling", level: 90 },
+        { name: "Digital Marketing", level: 85 },
+        { name: "Team Leadership", level: 88 },
+        { name: "Project Management", level: 85 },
+        { name: "Luxury Service", level: 95 },
       ],
     },
   }
@@ -202,8 +212,9 @@ export default function TechStack() {
           className="mt-12 text-center text-muted-foreground"
         >
           <p className="max-w-2xl mx-auto">
-            With extensive experience in both low-level systems programming and modern web development, I bring a
-            comprehensive understanding of software engineering principles to every project.
+            Combining hospitality excellence with modern web development skills, I bring a unique perspective to
+            creating user-centered digital experiences. Currently advancing through The Odin Project's full-stack
+            curriculum.
           </p>
         </motion.div>
       </div>

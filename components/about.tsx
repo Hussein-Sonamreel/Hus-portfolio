@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Code, Lightbulb, Rocket } from "lucide-react"
+import { Code, Users, Sparkles } from "lucide-react"
 
 export default function About() {
   const fadeIn = {
@@ -37,20 +37,21 @@ export default function About() {
             transition={{ duration: 0.5, delay: 0.2 }}
             variants={fadeIn}
           >
-            <h3 className="text-2xl font-bold mb-4">A Passionate Developer</h3>
+            <h3 className="text-2xl font-bold mb-4">From Hospitality to Code</h3>
             <p className="text-muted-foreground mb-6">
-              I'm a software developer with a passion for creating clean, efficient, and user-friendly applications.
-              With over 5 years of experience in the industry, I've worked on a variety of projects ranging from small
-              business websites to complex enterprise applications.
+              My career began in luxury hospitality with prestigious brands like Qatar Airways, Eka Hotel, and House of
+              Waine, where I mastered the art of precision, high standards, and creating exceptional human-centered
+              experiences.
             </p>
             <p className="text-muted-foreground mb-6">
-              My journey in software development began when I was in college, where I discovered my love for solving
-              complex problems through code. Since then, I've been continuously learning and improving my skills to stay
-              at the forefront of technology.
+              Now I'm channeling that same excellence into the digital space as a Full Stack Developer, Digital
+              Marketer, and Creative Brand Storyteller. I'm currently learning through The Odin Project while applying
+              my skills in brand design, marketing, and storytelling to create meaningful digital experiences.
             </p>
             <p className="text-muted-foreground">
-              When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or
-              sharing my knowledge through blog posts and community forums.
+              My mission is to blend hospitality finesse with technology — building websites and digital experiences
+              that feel both human and innovative, where every interaction is crafted with the same attention to detail
+              I brought to luxury service.
             </p>
           </motion.div>
 
@@ -66,13 +67,13 @@ export default function About() {
                 <CardContent className="p-6">
                   <div className="flex items-start gap-4">
                     <div className="bg-primary/10 p-3 rounded-full">
-                      <Code className="h-6 w-6 text-primary" />
+                      <Users className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <h4 className="text-xl font-semibold mb-2">Clean Code</h4>
+                      <h4 className="text-xl font-semibold mb-2">Hospitality Excellence</h4>
                       <p className="text-muted-foreground">
-                        I write maintainable, scalable, and efficient code following best practices and industry
-                        standards.
+                        Bringing luxury service standards and human-centered design principles to every digital
+                        experience I create.
                       </p>
                     </div>
                   </div>
@@ -91,12 +92,13 @@ export default function About() {
                 <CardContent className="p-6">
                   <div className="flex items-start gap-4">
                     <div className="bg-primary/10 p-3 rounded-full">
-                      <Lightbulb className="h-6 w-6 text-primary" />
+                      <Code className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <h4 className="text-xl font-semibold mb-2">Problem Solver</h4>
+                      <h4 className="text-xl font-semibold mb-2">Full Stack Development</h4>
                       <p className="text-muted-foreground">
-                        I enjoy tackling complex challenges and finding elegant solutions through creative thinking.
+                        Learning modern JavaScript, React, Node.js, and building scalable, production-ready applications
+                        with clean code.
                       </p>
                     </div>
                   </div>
@@ -115,12 +117,13 @@ export default function About() {
                 <CardContent className="p-6">
                   <div className="flex items-start gap-4">
                     <div className="bg-primary/10 p-3 rounded-full">
-                      <Rocket className="h-6 w-6 text-primary" />
+                      <Sparkles className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <h4 className="text-xl font-semibold mb-2">Fast Learner</h4>
+                      <h4 className="text-xl font-semibold mb-2">Brand Storytelling</h4>
                       <p className="text-muted-foreground">
-                        I quickly adapt to new technologies and environments, constantly expanding my skill set.
+                        Crafting compelling digital narratives and brand experiences that connect with audiences on an
+                        emotional level.
                       </p>
                     </div>
                   </div>

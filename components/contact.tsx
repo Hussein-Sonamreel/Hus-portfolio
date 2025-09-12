@@ -55,19 +55,19 @@ export default function Contact() {
     {
       icon: <Mail className="h-6 w-6 text-primary" />,
       title: "Email",
-      value: "contact@memoryleaked.dev",
-      link: "mailto:contact@memoryleaked.dev",
+      value: "2025salimh@gmail.com",
+      link: "mailto:2025salimh@gmail.com",
     },
     {
       icon: <Phone className="h-6 w-6 text-primary" />,
       title: "Phone",
-      value: "+44 (123) 456-7890",
-      link: "tel:+441234567890",
+      value: "+254710975805",
+      link: "tel:+254710975805",
     },
     {
       icon: <MapPin className="h-6 w-6 text-primary" />,
       title: "Location",
-      value: "Manchester, England",
+      value: "Nairobi, Kenya",
       link: null,
     },
   ]
@@ -188,20 +188,20 @@ export default function Contact() {
 
               <Card className="mt-8">
                 <CardContent className="p-6">
-                  <h4 className="text-lg font-semibold mb-4">Follow Me</h4>
+                  <h4 className="text-lg font-semibold mb-4">Connect With Me</h4>
                   <div className="flex gap-4">
-                    <Button variant="outline" size="icon" className="rounded-full" asChild>
-                      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="icon" className="rounded-full bg-transparent" asChild>
+                      <a href="https://www.linkedin.com/in/husseinsalim/" target="_blank" rel="noopener noreferrer">
                         <Linkedin className="h-5 w-5" />
                       </a>
                     </Button>
-                    <Button variant="outline" size="icon" className="rounded-full" asChild>
-                      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="icon" className="rounded-full bg-transparent" asChild>
+                      <a href="https://x.com/husseinsalim25" target="_blank" rel="noopener noreferrer">
                         <Twitter className="h-5 w-5" />
                       </a>
                     </Button>
-                    <Button variant="outline" size="icon" className="rounded-full" asChild>
-                      <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="icon" className="rounded-full bg-transparent" asChild>
+                      <a href="https://github.com/Hussein-Sonamreel" target="_blank" rel="noopener noreferrer">
                         <Github className="h-5 w-5" />
                       </a>
                     </Button>
