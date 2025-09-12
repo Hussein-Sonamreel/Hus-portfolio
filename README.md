@@ -1,30 +1,98 @@
-# Modern Portfolio
+# Hussein Salim - Modern Portfolio
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+[![Live Portfolio](https://img.shields.io/badge/Live%20Portfolio-digitalhus.com-teal?style=for-the-badge&logo=vercel)](https://digitalhus.com)
+[![Built with Next.js](https://img.shields.io/badge/Built%20with-Next.js-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/sonamreels-projects/v0-modern-portfolio)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/V1DLtw1ZSkT)
+## 🚀 Live Portfolio
 
-## Overview
+Visit my portfolio at **[digitalhus.com](https://digitalhus.com)**
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## 👨‍💻 About
 
-## Deployment
+A modern, responsive portfolio website showcasing my skills, projects, and professional experience as a Full-Stack Developer. Built with cutting-edge technologies and featuring a sleek, professional design with smooth animations and interactive elements.
 
-Your project is live at:
+## ✨ Features
 
-**[https://vercel.com/sonamreels-projects/v0-modern-portfolio](https://vercel.com/sonamreels-projects/v0-modern-portfolio)**
+- **Responsive Design** - Optimized for all devices and screen sizes
+- **Modern UI/UX** - Clean, professional design with smooth animations
+- **Typewriter Effect** - Dynamic text animation in the hero section
+- **Interactive Components** - Engaging user interface elements
+- **Project Showcase** - Detailed portfolio of development projects
+- **Contact Integration** - Easy ways to get in touch
+- **Performance Optimized** - Fast loading times and smooth interactions
+- **SEO Friendly** - Optimized for search engines
 
-## Build your app
+## 🛠️ Tech Stack
 
-Continue building your app on:
+- **Framework:** Next.js 14 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **UI Components:** shadcn/ui
+- **Icons:** Lucide React
+- **Deployment:** Vercel
+- **Development:** Built with v0.app
 
-**[https://v0.app/chat/projects/V1DLtw1ZSkT](https://v0.app/chat/projects/V1DLtw1ZSkT)**
+## 🎨 Design System
 
-## How It Works
+- **Color Palette:** Black, Teal, and Silver theme
+- **Typography:** Modern, readable fonts with proper hierarchy
+- **Layout:** Mobile-first responsive design
+- **Animations:** Smooth CSS transitions and effects
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## 📱 Sections
+
+- **Hero** - Introduction with typewriter effect and professional photo
+- **About** - Personal background and professional journey
+- **Tech Stack** - Technologies and tools I work with
+- **Projects** - Portfolio of development projects
+- **Testimonials** - Client and colleague feedback
+- **Contact** - Multiple ways to connect
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+\`\`\`bash
+git clone https://github.com/your-username/portfolio.git
+cd portfolio
+\`\`\`
+
+2. Install dependencies
+\`\`\`bash
+npm install
+# or
+yarn install
+\`\`\`
+
+3. Run the development server
+\`\`\`bash
+npm run dev
+# or
+yarn dev
+\`\`\`
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## 📧 Contact
+
+- **Website:** [digitalhus.com](https://digitalhus.com)
+- **Email:** hussein@digitalhus.com
+- **LinkedIn:** [linkedin.com/in/husseinsalim](https://www.linkedin.com/in/husseinsalim/)
+- **Twitter:** [@husseinsalim25](https://x.com/husseinsalim25)
+- **Location:** Toronto, ON, Canada
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+**Built with ❤️ by Hussein Salim**
