@@ -1,4 +1,4 @@
-# Hussein Salim - Modern Portfolio
+# Hussein Salim - My professional Portfolio
 
 [![Live Portfolio](https://img.shields.io/badge/Live%20Portfolio-digitalhus.com-teal?style=for-the-badge&logo=vercel)](https://digitalhus.com)
 [![Built with Next.js](https://img.shields.io/badge/Built%20with-Next.js-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
