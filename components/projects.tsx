@@ -116,26 +116,27 @@ export default function Projects() {
         "This project highlights my ability to translate a beauty brand’s vision into a digital experience. I collaborated with Fatma Glam to create a website that reflects her artistry in bridal glam, henna, and hair styling. The design emphasizes elegance, warmth, and professionalism, with intuitive navigation and responsive layouts. This site demonstrates my skill in crafting emotionally resonant brand experiences through thoughtful design and clean code.",
     },
     {
-      id: 6,
-      title: "Calculator App",
-      shortDescription: "A sleek, functional calculator built with vanilla JavaScript and modern design.",
-      description:
-        "A professional calculator application with a sleek black design, green operator buttons, and full arithmetic functionality.",
-      image: "/calculator-app-interface.png",
-      tags: ["JavaScript", "React", "CSS", "Responsive Design", "Modern UI"],
-      features: [
-        "Sleek black design with green accents",
-        "Full arithmetic operations (+, -, ×, ÷)",
-        "Decimal number support",
-        "Clear and backspace functionality",
-        "Responsive design for all devices",
-        "Professional UI with hover effects",
-      ],
-      demoLink: "https://your-calculator-demo-url.com", // Update with your deployed calculator URL
-      githubLink: "https://github.com/husseinsalim", // Update with your actual GitHub repo URL
-      fullDescription:
-        "This modern calculator application showcases clean code architecture and thoughtful UI design. Built with React and styled with a professional black theme, it features green operator buttons for easy identification and smooth interactions. The calculator handles all basic arithmetic operations with proper error handling and responsive design that works seamlessly across devices. This project demonstrates attention to detail in both functionality and visual design.",
-    },
+  id: 6,
+  title: "Calculator App",
+  shortDescription: "A sleek, functional calculator built with React, TypeScript, and Tailwind CSS.",
+  description:
+    "A professional calculator application featuring a modern black UI with green accents, full arithmetic functionality, and responsive design.",
+  image: "/calculator-app-interface.png",
+  tags: ["JavaScript", "React", "TypeScript", "Tailwind CSS", "Responsive Design", "Modern UI"],
+  features: [
+    "Sleek black design with green operator buttons",
+    "Full arithmetic operations (+, −, ×, ÷)",
+    "Decimal number support",
+    "Clear and backspace functionality",
+    "Responsive design for desktop and mobile",
+    "Professional UI with hover and keyboard support",
+    "Error handling for invalid operations",
+  ],
+  demoLink: "https://v0-vanilla-java-script-calculator.vercel.app/",
+  githubLink: "https://github.com/Hussein-Sonamreel", // Updated to match the deployed credit
+  fullDescription:
+    "This modern calculator showcases clean architecture and thoughtful UI design. Built with React, TypeScript, and Tailwind CSS, it features a sleek black interface with green operator buttons for visual clarity. The app supports all basic arithmetic operations, decimal input, and keyboard interaction, with robust error handling and a responsive layout. Designed to reflect professional standards in both functionality and aesthetics, this project highlights my attention to detail and commitment to production-ready interfaces.",
+},
   ]
 
   return (
