@@ -95,25 +95,26 @@ export default function Projects() {
       fullDescription:
         "This library management system represents my progression into full-stack development with Ruby on Rails. The application includes user authentication, database relationships, and CRUD operations. Drawing from my hospitality experience, I focused on creating an intuitive user experience for both librarians and patrons.",
     },
-    {
-      id: 5,
-      title: "Brand Portfolio Website",
-      shortDescription: "A showcase website for luxury hospitality brands.",
-      description: "A portfolio website highlighting luxury brand experiences and storytelling.",
-      image: "/luxury-brand-portfolio-website.jpg",
-      tags: ["HTML", "CSS", "JavaScript", "Brand Design"],
-      features: [
-        "Elegant visual design",
-        "Brand storytelling sections",
-        "Image galleries",
-        "Smooth animations",
-        "Contact integration",
-      ],
-      demoLink: "#",
-      githubLink: "#",
-      fullDescription:
-        "This brand portfolio website combines my hospitality industry knowledge with web development skills. Created to showcase luxury brand experiences, it demonstrates my understanding of high-end aesthetics and user experience design. The project reflects my unique position at the intersection of hospitality excellence and digital innovation.",
-    },
+   {
+  id: 6,
+  title: "Fatma Glam Beauty Website",
+  shortDescription: "A personalized brand website for a luxury bridal beauty artist.",
+  description: "A bespoke website designed for Fatma Glam, showcasing bridal makeup, henna artistry, and hair styling services.",
+  image: "/fatma-glam-website.jpg",
+  tags: ["HTML", "CSS", "JavaScript", "Brand Identity", "Responsive Design"],
+  features: [
+    "Elegant and feminine visual design",
+    "Service-focused layout with booking integration",
+    "Mobile-optimized experience",
+    "Smooth scroll and subtle animations",
+    "Custom brand storytelling",
+  ],
+  demoLink: "https://fatmaglam.com/",
+  githubLink: "#",
+  fullDescription:
+    "This project highlights my ability to translate a beauty brand’s vision into a digital experience. I collaborated with Fatma Glam to create a website that reflects her artistry in bridal glam, henna, and hair styling. The design emphasizes elegance, warmth, and professionalism, with intuitive navigation and responsive layouts. This site demonstrates my skill in crafting emotionally resonant brand experiences through thoughtful design and clean code."
+},
+
     {
       id: 6,
       title: "Calculator App",
