@@ -95,44 +95,46 @@ export default function Projects() {
       fullDescription:
         "This library management system represents my progression into full-stack development with Ruby on Rails. The application includes user authentication, database relationships, and CRUD operations. Drawing from my hospitality experience, I focused on creating an intuitive user experience for both librarians and patrons.",
     },
-   {
-  id: 6,
-  title: "Fatma Glam Beauty Website",
-  shortDescription: "A personalized brand website for a luxury bridal beauty artist.",
-  description: "A bespoke website designed for Fatma Glam, showcasing bridal makeup, henna artistry, and hair styling services.",
-  image: "/fatma-glam-website.jpg",
-  tags: ["HTML", "CSS", "JavaScript", "Brand Identity", "Responsive Design"],
-  features: [
-    "Elegant and feminine visual design",
-    "Service-focused layout with booking integration",
-    "Mobile-optimized experience",
-    "Smooth scroll and subtle animations",
-    "Custom brand storytelling",
-  ],
-  demoLink: "https://fatmaglam.com/",
-  githubLink: "#",
-  fullDescription:
-    "This project highlights my ability to translate a beauty brand’s vision into a digital experience. I collaborated with Fatma Glam to create a website that reflects her artistry in bridal glam, henna, and hair styling. The design emphasizes elegance, warmth, and professionalism, with intuitive navigation and responsive layouts. This site demonstrates my skill in crafting emotionally resonant brand experiences through thoughtful design and clean code."
-},
-
+    {
+      id: 5,
+      title: "Fatma Glam Beauty Website",
+      shortDescription: "A personalized brand website for a luxury bridal beauty artist.",
+      description:
+        "A bespoke website designed for Fatma Glam, showcasing bridal makeup, henna artistry, and hair styling services.",
+      image: "/fatma-glam-website.jpg",
+      tags: ["HTML", "CSS", "JavaScript", "Brand Identity", "Responsive Design"],
+      features: [
+        "Elegant and feminine visual design",
+        "Service-focused layout with booking integration",
+        "Mobile-optimized experience",
+        "Smooth scroll and subtle animations",
+        "Custom brand storytelling",
+      ],
+      demoLink: "https://fatmaglam.com/",
+      githubLink: "#",
+      fullDescription:
+        "This project highlights my ability to translate a beauty brand’s vision into a digital experience. I collaborated with Fatma Glam to create a website that reflects her artistry in bridal glam, henna, and hair styling. The design emphasizes elegance, warmth, and professionalism, with intuitive navigation and responsive layouts. This site demonstrates my skill in crafting emotionally resonant brand experiences through thoughtful design and clean code.",
+    },
     {
       id: 6,
       title: "Calculator App",
-      shortDescription: "A functional calculator built with vanilla JavaScript.",
-      description: "A calculator application with advanced operations and keyboard support.",
+      shortDescription: "A sleek, functional calculator built with vanilla JavaScript and modern design.",
+      description:
+        "A professional calculator application with a sleek black design, green operator buttons, and full arithmetic functionality.",
       image: "/calculator-app-interface.png",
-      tags: ["JavaScript", "HTML", "CSS", "DOM Manipulation"],
+      tags: ["JavaScript", "React", "CSS", "Responsive Design", "Modern UI"],
       features: [
-        "Basic arithmetic operations",
-        "Keyboard input support",
-        "Memory functions",
-        "Clear and backspace",
-        "Responsive design",
+        "Sleek black design with green accents",
+        "Full arithmetic operations (+, -, ×, ÷)",
+        "Decimal number support",
+        "Clear and backspace functionality",
+        "Responsive design for all devices",
+        "Professional UI with hover effects",
       ],
-      demoLink: "#",
-      githubLink: "#",
+      demoLink: "https://your-calculator-demo-url.com", // Update with your deployed calculator URL
+      githubLink: "https://github.com/husseinsalim", // Update with your actual GitHub repo URL
       fullDescription:
-        "This calculator application demonstrates my JavaScript fundamentals and problem-solving skills. Built as part of The Odin Project curriculum, it handles complex calculations and edge cases while maintaining a clean, user-friendly interface. The project showcases my attention to detail and commitment to creating polished applications.",
+        "This modern calculator application showcases clean code architecture and thoughtful UI design. Built with React and styled with a professional black theme, it features green operator buttons for easy identification and smooth interactions. The calculator handles all basic arithmetic operations with proper error handling and responsive design that works seamlessly across devices. This project demonstrates attention to detail in both functionality and visual design.",
     },
   ]
 
