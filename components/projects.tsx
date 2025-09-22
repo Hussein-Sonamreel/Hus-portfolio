@@ -20,24 +20,31 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Restaurant Landing Page",
-      shortDescription: "A modern restaurant website with online reservation system.",
-      description:
-        "A responsive restaurant website featuring menu display, reservation booking, and contact information.",
-      image: "/modern-restaurant-website-landing-page.jpg",
-      tags: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-      features: [
-        "Responsive design for all devices",
-        "Interactive menu display",
-        "Contact form integration",
-        "Modern CSS animations",
-        "Mobile-first approach",
-      ],
-      demoLink: "#",
-      githubLink: "#",
-      fullDescription:
-        "This restaurant landing page showcases my frontend development skills while drawing from my hospitality background. Built with semantic HTML, modern CSS, and vanilla JavaScript, it features a clean design that emphasizes the dining experience. The project demonstrates my understanding of user experience principles learned from years in luxury hospitality.",
-    },
+  title: "Luxury Brand Persona Generator",
+  shortDescription: "A polished web app that helps boutique brands uncover their archetype, tone, and audience.",
+  description:
+    "A refined digital atelier merging luxury storytelling with a modern tech stack. Users take an interactive quiz and receive an elegant persona card with a tailored tagline.",
+  image: "/luxury-brand-persona-generator.jpg",
+  tags: [
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "Framer Motion",
+    "OpenAI API",
+    "shadcn/ui"
+  ],
+  features: [
+    "Interactive multi-step quiz to map brand archetypes",
+    "AI-powered tagline generation (mocked for demo)",
+    "Animated persona reveal with shareable summary card",
+    "State management with React Hooks",
+    "Responsive, luxury-grade UI built with Tailwind + shadcn/ui"
+  ],
+  demoLink: "https://luxury-brand-persona-generator.vercel.app/",
+  githubLink: "https://github.com/Hussein-Sonamreel/luxury-brand-persona-generator",
+  fullDescription:
+    "This application was built as a flagship portfolio piece for DigitalHus.com. It fuses hospitality-level attention to detail with contemporary development practices. The result is an emotionally intelligent and technically sound tool that guides founders to discover their brand persona while showcasing proficiency in React, TypeScript, polished UI/UX, and AI integrations."
+},
     {
       id: 2,
       title: "Task Management App",
@@ -52,8 +59,8 @@ export default function Projects() {
         "Due date tracking",
         "Progress visualization",
       ],
-      demoLink: "#",
-      githubLink: "#",
+      demoLink: "https://v0-task-management-app-eight-sigma.vercel.app/",
+      githubLink: "https://github.com/Hussein-Sonamreel/Task-management-app",
       fullDescription:
         "This task management application demonstrates my JavaScript proficiency and understanding of DOM manipulation. Built as part of The Odin Project curriculum, it features a clean interface for organizing tasks with drag-and-drop functionality. The app uses local storage for data persistence and showcases my ability to create interactive web applications.",
     },
