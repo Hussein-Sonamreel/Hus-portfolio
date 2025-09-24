@@ -50,7 +50,7 @@ export default function Projects() {
       title: "Task Management App",
       shortDescription: "A collaborative task tracker built with JavaScript and local storage.",
       description: "A task management application with drag-and-drop functionality and local persistence.",
-      image: "/task-management-app.png",
+      image: "/task.png",
       tags: ["JavaScript", "HTML", "CSS", "Local Storage"],
       features: [
         "Drag and drop interface",
