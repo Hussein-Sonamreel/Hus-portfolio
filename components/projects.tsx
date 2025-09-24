@@ -24,7 +24,7 @@ export default function Projects() {
   shortDescription: "A polished web app that helps boutique brands uncover their archetype, tone, and audience.",
   description:
     "A refined digital atelier merging luxury storytelling with a modern tech stack. Users take an interactive quiz and receive an elegant persona card with a tailored tagline.",
-  image: "/luxury-brand-persona-generator.jpg",
+  image: "/luxury-brand-persona-generator.png",
   tags: [
     "React",
     "TypeScript",
