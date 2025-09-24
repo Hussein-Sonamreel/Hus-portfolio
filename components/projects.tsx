@@ -128,7 +128,7 @@ export default function Projects() {
   shortDescription: "A sleek, functional calculator built with React, TypeScript, and Tailwind CSS.",
   description:
     "A professional calculator application featuring a modern black UI with green accents, full arithmetic functionality, and responsive design.",
-  image: "/calculator-app-interface.png",
+  image: "/calcultor.png",
   tags: ["JavaScript", "React", "TypeScript", "Tailwind CSS", "Responsive Design", "Modern UI"],
   features: [
     "Sleek black design with green operator buttons",
