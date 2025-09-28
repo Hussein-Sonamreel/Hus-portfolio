@@ -88,7 +88,7 @@ export default function Projects() {
       title: "Real-Time Library Management System (LMS)",
       shortDescription: "A modern, single-page app for real-time book catalog management.",
       description: "A high-performance catalog management tool built with React, TypeScript, and live-synced using Firebase Firestore.",
-      image: "/library-management-system-interface.jpg",
+      image: "/library-management-system-interface.png",
       tags: ["React", "TypeScript", "Tailwind CSS", "Firebase Firestore", "Real-Time Sync"],
       features: [
         "Real-Time Catalog Sync (using Firestore onSnapshot)",
