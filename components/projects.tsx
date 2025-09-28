@@ -83,24 +83,24 @@ export default function Projects() {
       fullDescription:
         "This weather dashboard showcases my ability to work with external APIs and handle asynchronous JavaScript. The application fetches real-time weather data and presents it in an intuitive interface. This project demonstrates my growing skills in API integration, error handling, and creating dynamic user interfaces.",
     },
-    {
+  {
       id: 4,
-      title: "Library Management System",
-      shortDescription: "A Ruby on Rails application for managing book collections.",
-      description: "A full-stack library management system with user authentication and book tracking.",
+      title: "Real-Time Library Management System (LMS)",
+      shortDescription: "A modern, single-page app for real-time book catalog management.",
+      description: "A high-performance catalog management tool built with React, TypeScript, and live-synced using Firebase Firestore.",
       image: "/library-management-system-interface.jpg",
-      tags: ["Ruby on Rails", "PostgreSQL", "Bootstrap", "Authentication"],
+      tags: ["React", "TypeScript", "Tailwind CSS", "Firebase Firestore", "Real-Time Sync"],
       features: [
-        "User authentication",
-        "Book catalog management",
-        "Borrowing system",
-        "Search functionality",
-        "Admin dashboard",
+        "Real-Time Catalog Sync (using Firestore onSnapshot)",
+        "Responsive Dark Theme UI (Tailwind CSS)",
+        "Full CRUD Operations for book management",
+        "Client-Side Search (by Title, Author, ISBN)",
+        "One-click status toggling (Borrowed/Available)",
       ],
-      demoLink: "#",
-      githubLink: "#",
+      demoLink: "https://library-management-system-phi-three.vercel.app/",
+      githubLink: "https://github.com/Hussein-Sonamreel/library-management-system", 
       fullDescription:
-        "This library management system represents my progression into full-stack development with Ruby on Rails. The application includes user authentication, database relationships, and CRUD operations. Drawing from my hospitality experience, I focused on creating an intuitive user experience for both librarians and patrons.",
+        "This project showcases my ability to build fast, data-intensive modern web applications. Moving beyond traditional architectures, I focused on integrating Firebase Firestore's real-time features to ensure instant catalog updates across all users. The application emphasizes professional-grade code, strict TypeScript typing, and a polished, responsive dark-theme UI using Tailwind CSS. It is a direct reflection of my focus on speed and precision.",
     },
     {
       id: 5,
