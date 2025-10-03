@@ -12,7 +12,13 @@ export const metadata: Metadata = {
   title: "Hussein Salim | Portfolio",
   description:
     "Professional portfolio of Hussein Salim - Full Stack Developer, Digital Marketer & Creative Brand Storyteller",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
 }
+
 
 export default function Home() {
   return (
